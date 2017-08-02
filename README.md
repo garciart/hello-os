@@ -1,3 +1,4 @@
+<h2>Creating a 16-Bit Real Mode Application Using Assembly Language</h2>
 <h3>Introduction</h3>
 <p>
 Ever since Brian Kernighan published "<a href="https://www.bell-labs.com/usr/dmr/www/ctut.pdf" target="_blank" rel="noopener noreferrer" title="Programming in C - A Tutorial">Programming in C - A Tutorial</a>" in 1974, the "Hello, World!" program has become the Lorem Ipsum of the computer world. Therefore, it would make sense to open this blog by saying "Hello" as well.
@@ -96,4 +97,4 @@ Relative Jump Instructions">check it out here</a>.
 </p><p>
 Input "exit" to leave DOSBox.
 </p><p>
-Yay! You have created and executed a 16-bit program using Windows tools! Our next step will be to use this code as a basis for our bootloader.</p>
+Yay! You have created and executed a 16-bit program using Windows tools! Our next step will be to use this code as a basis for our bootloader, but we'll save that for <a href="/README-2.md" title="Hello, World - Part II"><b>Hello, World - Part II</b></a></p>
