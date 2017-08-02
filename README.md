@@ -16,17 +16,17 @@ Real Mode uses a 16-bit data bus, which means it uses 16-bit registers, which me
 </p><p>
 <h3>Step 3 - Writing the Code</h3>
 </p><p>
-Open the Run dialog by pressing the Windows Logo Key <img src="hello-world-part-1-img-01.png" alt="hello-world-part-1-img-01.png" /> and <b>R</b> simultaneously. Type "cmd" in the box that appears and hit <b>Enter</b>.
+Open the Run dialog by pressing the Windows Logo Key <img src="/README/hello-world-part-1-img-01.png" alt="Windows Logo Key" /> and <b>R</b> simultaneously. Type "cmd" in the box that appears and hit <b>Enter</b>.
 </p><p>
-<img src="https://github.com/garciart/hello-os/README/hello-world-part-1-img-02.png" alt="hello-world-part-1-img-02.png" />
+<img src="/README/hello-world-part-1-img-02.png" alt="Run Dialog Box" />
 </p><p>
 Now, we will create a folder named "hello_os" under your local disk, usually Local Disk (C:), using <b>mkdir</b>. Not only is this the directory where we will be storing our code, but it will also act as a local drive for DOSBox later on.
 </p><p>
-<img src="/README/hello-world-part-1-img-03.png" alt="hello-world-part-1-img-03.png" />
+<img src="/README/hello-world-part-1-img-03.png" alt="Create the hello_os Directory" />
 </p><p>
 Type in "notepad hello.asm" and hit <b>Enter</b>. If you are prompted to create a new file, click <b>Yes</b>:
 </p><p>
-<img src="hello-world-part-1-img-04.png" alt="hello-world-part-1-img-04.png" />
+<img src="/README/hello-world-part-1-img-04.png" alt="Create New File Dialog" />
 </p><p>
 Enter in the text below in the Notepad window:
 </p><p>
@@ -55,21 +55,21 @@ Save the file as "hello.asm" in the c:\hello_os folder and close Notepad. Now, i
 </p><p>
 NASM will compile and link our code into an executable COM file. Once NASM is complete, you should see the following list of files if you input "dir":
 </p><p>
-<img src="hello-world-part-1-img-05.png" alt="hello-world-part-1-img-05.png" />
+<img src="/README/hello-world-part-1-img-05.png" alt="NASM Results" />
 </p><p>
 <h3>Step 4 - Running the Program</h3>
 </p><p>
 Input "hello.com" at the prompt and you should get an error, similar to the one below:
 </p><p>
-<img src="hello-world-part-1-img-06.png" alt="hello-world-part-1-img-06.png" />
+<img src="/README/hello-world-part-1-img-06.png" alt="Unsupported 16-Bit Application Error" />
 </p><p>
 This is because modern Windows runs in 32-bit Protected Mode or greater. Click <b>OK</b> and exit the command prompt by typing in "exit". Start DOSBox and input "mount c c:\hello_os" at the Z prompt and hit <b>Enter</b>:
 </p><p>
-<img src="hello-world-part-1-img-07.png" alt="hello-world-part-1-img-07.png" />
+<img src="/README/hello-world-part-1-img-07.png" alt="Mounting the hello_os Directory to a Drive in DOSBox" />
 </p><p>
 Input "C:" to get to the hello_os directory, and then input "dir" to see the files and their sizes. Now, when you input "hello", you will see our greeting!
 </p><p>
-<img src="hello-world-part-1-img-08.png" alt="hello-world-part-1-img-08.png" />
+<img src="/README/hello-world-part-1-img-08.png" alt="Running the Application in DOSBox" />
 </p><p>
 Notice the size of hello.com. It is only 28 bytes; smaller than hello.asm. That is because NASM removed all the comments and left only the machine code:
 </p><p>
@@ -96,4 +96,4 @@ Relative Jump Instructions">check it out here</a>.
 </p><p>
 Input "exit" to leave DOSBox.
 </p><p>
-Yay! You have created and executed a 16-bit program using Windows tools! Our next step will be to use this code as a basis for our bootloader, but we'll save that for <a href="hello-world-part-2.html" rel="noopener noreferrer" title="Hello, World - Part II"><b>Hello, World - Part II</b></a></p>
+Yay! You have created and executed a 16-bit program using Windows tools! Our next step will be to use this code as a basis for our bootloader.</p>
