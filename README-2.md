@@ -2,7 +2,7 @@
 <h2>Creating a Bootloader</h3>
 <h3>Introduction</h3>
 <p>
-In <a href="/README.md" title="Hello, World - Part I"><b>Hello, World - Part I</b></a>, we wrote a simple 16-bit program in assembly language to use as the basis of our operating system. Now, we will create a simple bootloader, the bridge between the computer’s built-in Basic Input/Output System (BIOS) and the BIOS of the operating system you will use, whether it's Windows, OSX, Linux, or one you wrote yourself, as we will do in <a href="hello-world-part-3.html" rel="noopener noreferrer" title="Hello, World - Part III"><b>Hello, World - Part III</b></a>.
+In <a href="/README.md" title="Hello, World - Part I"><b>Hello, World - Part I</b></a>, we wrote a simple 16-bit program in assembly language to use as the basis of our operating system. Now, we will create a simple bootloader, the bridge between the computer’s built-in Basic Input/Output System (BIOS) and the BIOS of the operating system you will use, whether it's Windows, OSX, Linux, or one you wrote yourself, as we will do in <a href="/README-3.md" title="Hello, World - Part III"><b>Hello, World - Part III</b></a>.
 </p><p>
 <h3>Step 1 - Modify the Code</h3>
 </p><p>
