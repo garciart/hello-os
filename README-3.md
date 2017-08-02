@@ -392,7 +392,7 @@ times 512-($-$$) db 0
 </p><p>
 <h3>Step 3 - Put It All Together</h3>
 </p><p>
-Now that our bootloader and kernel are complete, we will use NASM to compile and link our code into a disk image file (i.e., a bootable disk). Follow the instructions in <a href="hello-world-part-2.html" rel="noopener noreferrer" title="Hello, World - Part II">Hello, World - Part II</a> to open a command window in the c:\hello_os directory and input the following commands:
+Now that our bootloader and kernel are complete, we will use NASM to compile and link our code into a disk image file (i.e., a bootable disk). Follow the instructions in <a href="/README-2.md" title="Hello, World - Part II">Hello, World - Part II</a> to open a command window in the c:\hello_os directory and input the following commands:
 </p><p>
 <pre>c:\nasm\nasm.exe -f bin -o bootloader.img bootloader.asm
 c:\nasm\nasm.exe -f bin -o kernel.img kernel.asm
@@ -403,7 +403,7 @@ Once NASM is complete, you should see the following list of files if you input "
 </p><p>
 <img src="/README/hello-world-part-3-img-01.png" alt="NASM Results" />
 </p><p>
-Once again, follow the instructions in <a href="hello-world-part-2.html" rel="noopener noreferrer" title="Hello, World - Part II">Hello, World - Part II</a> to upload a disk image in VirtualBox, but name the virtual machine "Hello OS" and use hello_os.img instead of hello.img:
+Once again, follow the instructions in <a href="/README-2.md" title="Hello, World - Part II">Hello, World - Part II</a> to upload a disk image in VirtualBox, but name the virtual machine "Hello OS" and use hello_os.img instead of hello.img:
 </p><p>
 <img src="/README/hello-world-part-3-img-02.png" alt="Create the Virtual Machine" />
 </p><p>
