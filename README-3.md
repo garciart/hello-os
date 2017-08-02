@@ -2,7 +2,7 @@
 <h2>Creating the Operating System</h2>
 <h3>Introduction</h3>
 <p>
-In <a href="README-2.md" title="Hello, World - Part II"><b>Hello, World - Part II</b></a>, we wrote a simple bootloader, which acts as the bridge between the computer’s built-in Basic Input/Output System (BIOS) and the BIOS of the operating system you will use. Now we are going to use that bootloader to load an operating system, known as a "kernel", into memory. While the purpose of most operating systems is to take control of the computer from its built-in BIOS, as well as to manage memory and calls to input/output (I/O) ports, our kernel will only do one thing: display the message, "Welcome to the Hello, World OS 1.0!"
+In <a href="/README-2.md" title="Hello, World - Part II"><b>Hello, World - Part II</b></a>, we wrote a simple bootloader, which acts as the bridge between the computer’s built-in Basic Input/Output System (BIOS) and the BIOS of the operating system you will use. Now we are going to use that bootloader to load an operating system, known as a "kernel", into memory. While the purpose of most operating systems is to take control of the computer from its built-in BIOS, as well as to manage memory and calls to input/output (I/O) ports, our kernel will only do one thing: display the message, "Welcome to the Hello, World OS 1.0!"
 </p><p>
 <h3>Step 1 - Write the Bootloader</h3>
 </p><p>
