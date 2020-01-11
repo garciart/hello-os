@@ -20,7 +20,7 @@ Real Mode uses a 16-bit data bus, which means it uses 16-bit registers, which me
 
 ### Step 3 - Writing the Code
 
-Open the Run dialog by pressing the Windows Key ![⊞](https://raw.githubusercontent.com/garciart/HelloOS/master/README/hello-world-part-1-img-01.png) and <kbd>R</kbd> simultaneously. Type "cmd" in the box that appears and hit <kbd>Enter</kbd>.
+Open the Run dialog by pressing the Windows Key ![⊞](README/hello-world-part-1-img-01.png) and <kbd>R</kbd> simultaneously. Type "cmd" in the box that appears and hit <kbd>Enter</kbd>.
 
 <p align="center"><img src="/README/hello-world-part-1-img-02.png" alt="Run Dialog Box" /></p>
 
